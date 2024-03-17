@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+
+
+}
+body{
+    background-image: url(Capture.PNG);
+
+    height:80vh;
+    width: 100vw;
+    padding:0 10px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+
+}
+.container{
+    border: 1px solid rgb(6, 6, 252); 
+    border-radius: 5px;
+    max-width:500px;
+    width: 100%;
+    backdrop-filter:blur(15px);
+    /* background-color: aliceblue; */
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 55px 55px, rgba(0, 0, 0, 0.5) 0px -12px 30px, rgba(0, 0, 0, 0.5) 0px 4px 6px, rgba(0, 0, 0, 0.5) 0px 12px 13px, rgba(0, 0, 0, 0.5) 0px -3px 10px;
+    
+
+}
+.container .title{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color:rgb(3, 177, 189); 
+    text-decoration: underline;
+    
+    text-align: center;
+    
+
+
+}
+.container .form{
+    width: 100%;
+    
+}
+.container .form .input_fielad{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    color: rgb(7, 0, 0);
+
+
+}
+.container .form .input_fielad label{
+    /* border: 2px solid black; */
+    width: 150px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .form .input_fielad input{ 
+    height: 35px;
+    width: 270px;
+    outline-color: blueviolet;
+    font-size: 15px;
+    background-color: rgb(247, 38, 142);
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(24, 15, 15);
+    padding-left: 10px;
+}
+.select{
+    height: 35px;
+    width: 270px;
+    outline-color: blueviolet;
+    font-size: 15px;
+    background-color: rgb(253, 50, 168);
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px rgb(24, 15, 15);
+    padding-left: 10px;
+}
+.input_fielad_terms{
+    display: flex;
+    color: rgb(10, 10, 10);
+
+}
+.tt{
+    font-size:15px ;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.input_fielad_terms label input{
+    margin: 0px 10px;
+    margin-bottom: 25px;
+    color: white;
+
+}
+.btn1{
+    text-align: center;
+}
+ .btn1 input{
+    height:50px;
+    width: 90%;
+    font-size: 20px;
+    text-transform: capitalize;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+.btn1 input:hover{
+    color: rgb(249, 252, 249);
+    background-color: lightseagreen;
+    transform:scale(1.1);
+}
+
+
+
+
